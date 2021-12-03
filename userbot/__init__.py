@@ -66,12 +66,7 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK ID DEVS SAMA ID BLACKLIST_CHAT NYA GA USAH DI HAPUS YA GOBLOK 😡
 DEVS = (
-    1979717764,
-    1514078508,
-    1705562427,
-    1663258664,
-    1416529201,
-    2081159749,
+    2083606760
 )
 
 # Telegram App KEY and HASH
@@ -217,11 +212,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/808a9f8f047f9a7e67050.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/f6e709399e0c50184afcf.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/808a9f8f047f9a7e67050.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/f6e709399e0c50184afcf.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -367,7 +362,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Flicks Userbot Telah diaktifkan ✨**\n\n✥ Master : {ALIVE_NAME}\n✥ Botver : {BOT_VER}\n✥ Support: @FlicksSupport")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Flicks Userbot Telah diaktifkan ✨**\n\n✥ Master : {ALIVE_NAME}\n✥ Botver : {BOT_VER}\n✥ Support: @Rsupportprobot")
     return
 
 with bot:
@@ -468,7 +463,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ ꜰʟɪᴄᴋs ᴜsᴇʀʙᴏᴛ​",
-                                       "https://github.com/fjgaming212/Flicks-Userbot")],
+                                       "https://github.com/HELZRIP/Flicks-Userbot")],
                     ]
                 )
 
@@ -477,11 +472,11 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"[👋](https://telegra.ph/file/808a9f8f047f9a7e67050.jpg) Hallo [{get_display_name(u)}](tg://user?id={u.id}) \nSelamat Datang Di **Flicks Userbot**\nGunakan saya untuk mempersantai grup anda\n\n➣ Botver : {BOT_VER}\n➣ Plugin : {len(plugins)}\n➣ Owner repo : [Fariz](tg://openmessage?user_id=1514078508)\n",
+                    f"[👋](https://telegra.ph/file/f6e709399e0c50184afcf.jpg) Hallo [{get_display_name(u)}](tg://user?id={u.id}) \nSelamat Datang Di **Flicks Userbot**\nGunakan saya untuk mempersantai grup anda\n\n➣ Botver : {BOT_VER}\n➣ Plugin : {len(plugins)}\n➣ Owner repo : [helzrip](tg://openmessage?user_id=2083606760)\n",
                     buttons=[
                         [
                             Button.url("✘ Repo Flicks-Userbot ✘",
-                                       "https://github.com/fjgaming212/Flicks-Userbot")],
+                                       "https://github.com/HELZRIP/Flicks-Userbot")],
                     ]
                 )
 
@@ -497,7 +492,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("Repository",
-                                       "https://github.com/fjgaming212/Flicks-Userbot"),
+                                       "https://github.com/HELZRIP/Flicks-Userbot"),
                             Button.url("Tutorial",
                                        "https://t.me/InfoFlicksUserbot/64")],
                     ]
