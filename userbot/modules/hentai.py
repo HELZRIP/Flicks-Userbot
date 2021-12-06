@@ -1,5 +1,5 @@
-from telethon import events
-from telethon.errors.rpcerrorlist import YouBlockedUserError
+from userbot import events
+from userbot.errors.rpcerrorlist import CMD_HELP
 from userbot import bot, CMD_HELP
 from userbot.events import register
 
