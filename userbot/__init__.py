@@ -106,9 +106,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/fjgaming212/Flicks-Userbot")
+    "https://github.com/HELZRIP/Flicks-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Flicks-Userbot")
+    "UPSTREAM_REPO_BRANCH", "R-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -199,7 +199,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Flicks-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "R-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "5.1")
@@ -362,7 +362,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Flicks Userbot Telah diaktifkan ✨**\n\n✥ Master : {ALIVE_NAME}\n✥ Botver : {BOT_VER}\n✥ Support: @Rsupportprobot")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**R Userbot Telah diaktifkan ✨**\n\n✥ Master : {ALIVE_NAME}\n✥ Botver : {BOT_VER}\n✥ Support: @Rsupportprobot")
     return
 
 with bot:
@@ -462,7 +462,7 @@ with bot:
                     f"sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪsɪɴɪ ʏᴀ​ ✨\n",
                     buttons=[
                         [
-                            Button.url("ʀᴇᴘᴏ ꜰʟɪᴄᴋs ᴜsᴇʀʙᴏᴛ​",
+                            Button.url("ʀᴇᴘᴏ R ᴜsᴇʀʙᴏᴛ​",
                                        "https://github.com/HELZRIP/Flicks-Userbot")],
                     ]
                 )
@@ -488,7 +488,7 @@ with bot:
                     f"👋🏻 Hai [{get_display_name(u)}](tg://user?id={u.id}) Jika anda\n"
                     f"Ingin melihat repository ini dan Cara deploynya\n\n"
                     f"👇🏻 __Klik button url di bawah ini__ 👇🏻\n\n"
-                    f"**FLICKS USERBOT**\n",
+                    f"**R USERBOT**\n",
                     buttons=[
                         [
                             Button.url("Repository",
@@ -524,10 +524,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/fjgaming212/Flicks-Userbot"),
+                                                      url="https://github.com/HELZRIP/Flicks-Userbot"),
                                                   custom.Button.url(
                                                       text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/fjgaming212/Flicks-Userbot/blob/Flicks-Userbot/LICENSE"
+                                                      url="https://github.com/HELZRIP/Flicks-Userbot/blob/Flicks-Userbot/LICENSE"
                                                   )
                                               ]
                                           ]
@@ -571,7 +571,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             current_page_number = int(lockpage)
             buttons = paginate_help(current_page_number, plugins, "helpme")
-            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** Flicks-Userbot\n** Vᴇʀsɪ :** `v{BOT_VER}`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
+            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** R-Userbot\n** Vᴇʀsɪ :** `v{BOT_VER}`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
             await event.edit(
                 text,
                 file=kenlogo,
@@ -590,7 +590,7 @@ with bot:
                 result = builder.photo(
                     file=kenlogo,
                     link_preview=False,
-                    text=f"\n**Flicks-Userbot**\n\n✥**Mᴀsᴛᴇʀ​** {ALIVE_NAME}\n\n✥**ʙʀᴀɴᴄʜ :** Flicks-Userbot\n✥**Vᴇʀsɪ :** {BOT_VER}\n✥**Plugin** : {len(plugins)}".format(
+                    text=f"\n**R-Userbot**\n\n✥**Mᴀsᴛᴇʀ​** {ALIVE_NAME}\n\n✥**ʙʀᴀɴᴄʜ :** R-Userbot\n✥**Vᴇʀsɪ :** {BOT_VER}\n✥**Plugin** : {len(plugins)}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -603,19 +603,19 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ✘ Flicks-Userbot ✘",
-                    text=f"""**Flicks-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✥**Mᴀsᴛᴇʀ​** {ALIVE_NAME}\n✥**Vᴇʀsɪ :** {BOT_VER}\n✥**Plugin** : {len(plugins)}\n✥**ᴀssɪsᴛᴇɴ :** @{BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖""",
+                    " ✘ R-Userbot ✘",
+                    text=f"""**R-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✥**Mᴀsᴛᴇʀ​** {ALIVE_NAME}\n✥**Vᴇʀsɪ :** {BOT_VER}\n✥**Plugin** : {len(plugins)}\n✥**ᴀssɪsᴛᴇɴ :** @{BOT_USERNAME}\n➖➖➖➖➖➖➖➖➖➖""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "sᴜᴘᴘᴏʀᴛ",
-                                "t.me/FlicksSupport"),
+                                "t.me/Rsupportprobot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
                                 "t.me/InfoFlicksUserbot")],
                         [custom.Button.url(
                             "ʀᴇᴘᴏ",
-                            "https://github.com/fjgaming212/Flicks-Userbot")]],
+                            "https://github.com/HELZRIP/Flicks-Userbot")]],
                     link_preview=False,
                 )
             await event.answer(
@@ -655,7 +655,7 @@ with bot:
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
                                        "t.me/SadRoomsInfo"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/FlicksSupport")],
+                                       "t.me/Rsupportprobot")],
                         [Button.inline("Oᴘᴇɴ Mᴇɴᴜ", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
