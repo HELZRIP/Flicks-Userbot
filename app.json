@@ -1,7 +1,7 @@
 {
-  "name": "Flicks-Userbot",
-  "description": "[Ficks-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/62e4919abb9c9dd7c0310.jpg",
+  "name": "R-Userbot",
+  "description": "[R-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
+  "logo": "",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/fjgaming212/Flicks-Userbot",
-  "telegram": "https://t.me/FJ_GAMING",
-  "success_url": "https://t.me/FlicksSupport",
+  "repository": "https://github.com/HELZRIP/Flicks-Userbot",
+  "telegram": "https://t.me/helzrip",
+  "success_url": "https://t.me/Rsupportprobott",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -88,7 +88,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "Flicks-Userbot ✨",
+      "value": "R-Userbot ✨",
       "required": false
     },
     "ALIVE_NAME": {
@@ -97,7 +97,7 @@
     },
     "FLICKS_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .flicksalive (Isi Terserah)",
-      "value": "I'am Using Flicks-Userbot ✨",
+      "value": "I'am Using R-Userbot ✨",
       "required": false
     },
     "S_PACK_NAME": {
