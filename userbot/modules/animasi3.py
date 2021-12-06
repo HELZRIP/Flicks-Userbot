@@ -482,7 +482,6 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
-    \n\nCommand: `.plane`\
-    \n↳ : pesawat terbung.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.war`."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.war`
+    \n\nCommand: `.plane`"
 })
