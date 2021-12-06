@@ -1,8 +1,8 @@
-#         FLICKS-USERBOT​    
+#         R-USERBOT​    
 
-Flicks-Userbot adalah userbot Telegram modular yang berjalan di Python 3.6 dengan database sqlalchemy.
+R-Userbot adalah userbot Telegram modular yang berjalan di Python 3.6 dengan database sqlalchemy.
 
-Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan module.
+Saya mengcopy dan mengedit repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan module.
     
 
 
@@ -59,4 +59,5 @@ Gabung [Grup Support](https://t.me/FlicksSupport) Dan [Channel Update](https://t
 *   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
+## MY 
 *   [rey](http://github.com/HELZRIP/Flicks-Userbot) me just copy 🗿🗿
