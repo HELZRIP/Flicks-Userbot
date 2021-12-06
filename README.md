@@ -59,4 +59,4 @@ Gabung [Grup Support](https://t.me/FlicksSupport) Dan [Channel Update](https://t
 *   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
 
-*   [rey] me just copy 🗿🗿
+*   [rey](http://github.com/HELZRIP/Flick-Userbot) me just copy 🗿🗿
