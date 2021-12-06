@@ -441,6 +441,34 @@ async def typewriter(typew):
     await typew.edit("**Sorry Cok Wkwkwk**")
     sleep(1)
     await typew.edit("**Tapi Bo'ong**")
+    
+    @catub.cat_cmd(
+    pattern="plane$",
+    command=("plane", plugin_category),
+    info={
+        "header": "Fun animation try yourself to know more",
+        "usage": "{tr}plane",
+    },
+)
+async def _(event):
+    "animation command"
+    event = await edit_or_reply(event, "Wait for plane...")
+    await event.edit("✈-------------")
+    await event.edit("-✈------------")
+    await event.edit("--✈-----------")
+    await event.edit("---✈----------")
+    await event.edit("----✈---------")
+    await event.edit("-----✈--------")
+    await event.edit("------✈-------")
+    await event.edit("-------✈------")
+    await event.edit("--------✈-----")
+    await event.edit("---------✈----")
+    await event.edit("----------✈---")
+    await event.edit("-----------✈--")
+    await event.edit("------------✈-")
+    await event.edit("-------------✈")
+    await asyncio.sleep(3)
+
 # Create by myself @localheart
 
 
@@ -454,5 +482,7 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
+    \n\nCommand: `.plane`\
+    \n↳ : pesawat terbung.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.war`."
 })
